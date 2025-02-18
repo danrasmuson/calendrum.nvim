@@ -22,11 +22,6 @@ function M.define_keymaps()
 		print("close")
 		Window:close()
 	end, { noremap = true, silent = true, buffer = Window.buf_id })
-
-	vim.keymap.set("n", "q", function()
-		print("close")
-		Window:close()
-	end, { noremap = true, silent = true, buffer = Window.buf_id })
 end
 
 return M
